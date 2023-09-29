@@ -1,5 +1,5 @@
 # Introduction-to-NICT-Darknet-Dataset-2022
-This repository introduces the NICT Darknet Dataset 2022 https://csdataset.nict.go.jp/darknet-2022/. This dataset and the ground truth have been used in [1] [2] [3] on malware detection in the darknet. The observation scale of all darknet sensors and the total observed IPv4 addresses, the malware activity threats and their characteristic of network activity, and the goal of detecting TCP ports where malware activities were observed are presented.
+This repository introduces the NICT Darknet Dataset 2022 https://csdataset.nict.go.jp/darknet-2022/. This dataset and the ground truth have been used in [[1]](#ref1) [[2]](#ref2) [[3]](#ref3) [[4]](#ref4) on malware detection in the darknet. The observation scale of all darknet sensors and the total observed IPv4 addresses, the malware activity threats and their characteristic of network activity, and the goal of detecting TCP ports where malware activities were observed are presented.
 
 The data is collected with eight darknet sensors that monitor different IP address spaces and have different observation scales of the subnet. The observation scale of darknet sensors ranges from 2048 IP addresses to 32768 IP addresses. These eight darknet sensors monitor a total of 86016 IP addresses.
 
@@ -44,6 +44,7 @@ A surge in the number of source hosts can be observed on October 14 and October 
 
 
 # Reference
-1. C. Han, J. Takeuchi, T. Takahashi, and D. Inoue, “Automated detection of malware activities using nonnegative matrix factorization,” in 2021 IEEE 20th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), pp. 548– 556, IEEE, 2021.
-2. C. Han, J. Takeuchi, T. Takahashi, and D. Inoue, “Dark-tracer: Early detection framework for malware activity based on anomalous spatiotemporal patterns,” IEEE Access, vol. 10, pp. 13038– 13058, 2022.
-3. C. Han, J. Shimamura, T. Takahashi, D. Inoue, J. Takeuchi, and K. Nakao, “Real-time detection of global cyberthreat based on darknet by estimating anomalous synchronization using graphical lasso,” IEICE TRANSACTIONS on Information and Systems, vol. 103, no. 10, pp. 2113–2124, 2020.
+1. <a name='ref1'></a>Han, C., Takeuchi, J. I., Takahashi, T., & Inoue, D. (2021, October). Automated detection of malware activities using nonnegative matrix factorization. In 2021 IEEE 20th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom) (pp. 548-556). IEEE.
+2. <a name='ref2'>Han, C., Takeuchi, J. I., Takahashi, T., & Inoue, D. (2022). Dark-TRACER: Early detection framework for malware activity based on anomalous spatiotemporal patterns. IEEE Access, 10, 13038-13058.
+3. <a name='ref3'>Han, C., Shimamura, J., Takahashi, T., Inoue, D., Takeuchi, J. I., & Nakao, K. (2020). Real-time detection of global cyberthreat based on darknet by estimating anomalous synchronization using graphical lasso. IEICE TRANSACTIONS on Information and Systems, 103(10), 2113-2124.
+4. <a name='ref4'>Chang, Y. W., Chen, H. Y., Han, C., Morikawa, T., Takahashi, T., & Lin, T. N. (2023). FINISH: Efficient and Scalable NMF-Based Federated Learning for Detecting Malware Activities. IEEE Transactions on Emerging Topics in Computing.
